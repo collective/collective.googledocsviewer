@@ -16,13 +16,14 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
   <!-- -*- extra stuff goes here -*- -->
-
+    <include package="plone.app.contentmenu"/>
     <browser:page
-        name="googledocsviewer"
+        name="googledocsviewer.html"
+        menu="plone_displayviews"
+        title="Google docs viewer"
         for="Products.ATContentTypes.interfaces.IATFile"
         class=".views.GoogleDocsViewerView"
         template="googledocsviewer.pt"
-        layer=".interfaces.IGoogleDocsViewerLayer"
         permission="zope2.View"
         />
 
