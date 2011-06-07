@@ -40,3 +40,4 @@ class GoogleDocsViewerView(ConfigurableBaseView):
     
     def height(self):
         return self.settings['height']
+
