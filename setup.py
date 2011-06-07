@@ -26,6 +26,7 @@ setup(name='collective.googledocsviewer',
       install_requires=[
           'setuptools',
           'plone.app.testing',
+          'collective.configviews',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
