@@ -25,3 +25,26 @@ For example, http://example.com/myfile/view  will become ::
   <iframe src="http://docs.google.com/viewer?url=http%3A%2F%2Fexample.com%2Fmyfile&embedded=true" width="600" height="780" style="border: none;"></iframe>
 
 Sizes are stored on site level in plone.app.registry or on context level with annotations.
+
+Credits
+=======
+
+Companies
+---------
+
+|makinacom|_
+
+  * `Planet Makina Corpus <http://www.makina-corpus.org>`_
+  * `Contact us <mailto:python@makina-corpus.org>`_
+
+Authors
+
+  - JeanMichel FRANCOIS aka toutpt <toutpt@gmail.com>
+
+Contributors
+
+  - 
+
+.. |makinacom| image:: http://depot.makina-corpus.org/public/logo.gif
+.. _makinacom:  http://www.makina-corpus.com
+
