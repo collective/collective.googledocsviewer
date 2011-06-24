@@ -2,7 +2,7 @@ from urllib import urlencode
 from zope import schema
 from zope import interface
 from Products.Five import BrowserView
-from collective.configviews.api import ConfigurableBaseView
+from collective.configviews import ConfigurableBaseView
 
 IFRAME_SRC="http://docs.google.com/viewer?"
 
