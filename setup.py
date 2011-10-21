@@ -6,7 +6,7 @@ version = '1.0b2dev'
 setup(name='collective.googledocsviewer',
       version=version,
       description="Use google docs viewer to display embed version of your office files",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
