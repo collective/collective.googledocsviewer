@@ -7,7 +7,12 @@
       i18n:domain="collective.googledocsviewer">
 <body>
 <div metal:fill-slot="content-core">
-
+<p class="download-info">
+	<span class="download-label" i18n:translate="download_and_print">Download and Print:</span> 
+	<metal:field use-macro="python:context.widget('file', mode='view')">
+    	File
+  	</metal:field>
+</p>
 <iframe tal:condition="view/validate" tal:attributes="src view/iframe_src; width view/width; height view/height; style view/iframe_style"></iframe>
 <p tal:condition="not:view/validate" i18n:translate="no_valide_document">This document is not valid. It can not be accessed by the viewer.</p>
 
